@@ -1,0 +1,34 @@
+.benefits {
+  display: flex;
+}
+.benefits:before {
+  content: url(../section.one/pics/triangle.png);
+  position: absolute;
+  bottom: rem(-145px);
+  left: 5%;
+}
+
+.benefits__item {
+  flex: 1;
+  padding: 0 3%;
+  position: relative;
+}
+.benefits__item:before {
+  content: "";
+  background: url(../section.one/pics/threecircles.png);
+  width: rem(67px);
+  height: rem(21px);
+  position: absolute;
+  top: rem(40px);
+  right: 0;
+  transform: translateX(50%);
+}
+.benefits__item:first-child {
+  padding-left: 0;
+}
+.benefits__item:last-child {
+  padding-right: 0;
+}
+.benefits__item:last-child:before {
+  display: none;
+}

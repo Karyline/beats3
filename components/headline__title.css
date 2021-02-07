@@ -1,0 +1,15 @@
+.headline {
+  text-align: center;
+}
+
+.benefits-section__head {
+  margin-bottom: rem(40px);
+}
+
+.headline__title {
+  margin-bottom: rem(5px);
+}
+
+.headline__subtitle {
+  padding: 0 20%;
+}

@@ -1,0 +1,259 @@
+$containerWidth: 940px;
+$baseFontSize: 16px;
+
+
+//breakpoints
+
+$tablets: 768px;
+$phones: 480px;
+
+//colors
+$grey: #F5F5F5;
+$white: #ffffff;
+
+
+// font-family: 'Alegreya Sans', sans-serif;
+// font-family: 'Play', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Play:wght@400;700&display=swap');
+ 
+@import "./media.scss";
+
+@import './layuot.scss';
+@import './hero.scss';
+@import './header.scss';
+@import './menu.scss';
+@import './features.scss';
+@import './feature__icon.scss';
+@import './btn.scss';
+@import './section.scss';
+@import './headline__title.scss';
+@import './benefits.scss';
+@import './benefit.scss';
+@import './reviews.scss';
+@import './interactive-avatar.scss';
+@import './form.scss';
+@import './radio.scss';
+@import './fixed-menu.scss';
+@import './hamburger.scss';
+
+
+body {
+  // font-family: "Play", sans-serif;
+  // font-size: rem(30px);
+}
+
+// .wrapper{
+//   background: #f5f5f5;
+ 
+// }
+// .container {
+//   width: rem(920px);
+//   margin-left: auto;
+//   margin-right: auto;
+
+// }
+
+
+// .header__container{
+//   display: flex;
+//   align-items: center;
+//   justify-content:space-between;
+// }
+// .header__logo {
+//   width: rem(40px);
+//   height: rem(40px);
+//   background: url(/section.one/Beats-logo/Beats-logo.jpg);
+//   border-radius: rem(100px);
+
+// }
+// .header__menu {
+//   display: flex;
+// }
+// .header__menu-item {
+//   font-size: rem(18px);
+//   color: #292929;
+//   margin-right: rem(27px);
+//   white-space: nowrap;
+//   font-family: 'Alegreya Sans', sans-serif;
+// }
+
+// .header__menu-item:last-child{
+//   margin: 0;
+// }
+
+
+// .header__phone {
+//   font-family: 'Play', sans-serif;
+//   font-size: rem(18px);
+//   color: #292929;
+//   text-decoration: none;
+//   white-space: nowrap;
+// }
+
+// .beats__content{
+//   padding-bottom: rem(60px);
+// }
+
+// .beats__content__conteiner{
+//   width: rem(920px);
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+
+// .beats__title{
+//   margin-top: rem(90px);
+//   font-style: 'Play';
+//   font-size: rem(48px);
+// }
+
+// .beats__subtitle{
+//   font-family: 'Alegreya Sans', sans-serif;
+//   font-weight: normal;
+//   font-size: rem(21px);
+//   line-height: rem(27px);
+//   margin-bottom: rem(40px);
+// }
+
+
+// .btn__red{
+//   background:#E01F3D;
+//   padding: rem(21px) rem(41px);
+//   width: rem(100px);
+//   height: rem(18px);
+//   border-radius: rem(100px);
+//   color: #fff;
+//   text-transform: uppercase;
+//   text-decoration: none;
+//   display: flex;
+//   font-size: rem(16px);
+//   align-items: center;
+//   justify-content: center;
+//   font-style: 'Play';
+//   font-weight: bold;
+// }
+
+
+
+// .beats__options{
+//   width: rem(460px);
+//   margin-left: rem(490px);
+//   margin-right: auto;
+//   display: flex;
+//   margin-top: rem(50px);
+//   font-size: rem(16px);
+//   font-style: 'Play';
+//   font-weight: normal;
+//   justify-content:space-between;
+//   float: left;
+  
+// }
+
+// .beats__options-item{
+//   margin-top: rem(50px);
+//   font-size: rem(16px);
+//   font-style: 'Play';
+//   font-weight: normal;
+//   display: flex;
+//   margin-left: rem(20px);
+
+//   &:nth-of-type(1) {
+//     margin-left: 0;
+//   }
+// }
+
+// .beats__options-item-text {
+//   width: rem(120px);
+// }
+
+
+ 
+//  .img__options{
+//   margin-right: rem(13px);
+//  }
+// .img__hearphones{
+//   width: rem(489px);
+//   height: rem(489px);
+//   margin-left: rem(-13px);
+//   margin-top: rem(-351px);
+//   border-radius: rem(300px);
+// }
+
+// .img__rectangle{
+//   margin-left: rem(1350px);
+//   margin-top: rem(-20px);
+// }
+
+
+// // !!!SECOND__SECTION!!!
+// .wrapper__second__section{
+  
+//   text-align: center;
+  
+
+//   .why__beats__title{
+//     margin-top: rem(80px);
+//   font-size: rem(48px);
+//   text-decoration: none;
+//   }
+
+//   .why__beats__subtitle{
+//     font-size: rem(16px);
+//     width: rem(590px);
+//     margin-left: rem(660px);
+//     font-weight: normal;
+//     color: #666666;
+//   }
+
+//   .why__beats-title{
+//     font-weight: rem(276px);
+    
+//   }
+// }
+
+// .why__beats__content__content{
+//   margin-top: rem(50px);
+//   margin-bottom: rem(100px); 
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+  
+  
+//   .why__beats-title{
+//     font-size: rem(24px);
+//     font-weight: bold;
+    
+    
+//   }
+
+//   .why__beats-subtitle{
+//     font-size: rem(16px);
+//     color: #666666;
+//     width: rem(240px);  
+//     text-align: center;
+//   }
+  
+// }
+
+// .why__beats__img__circle{
+//   position: relative;
+//   background:#f2f5f4;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   width: rem(125px);
+//   height: rem(125px);
+//   border-radius: 50%;
+
+
+ 
+// }
+
+// .why__beats__content__container{
+//   width: rem(920px);
+//   margin-left: auto;
+//   margin-right: auto;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+// }

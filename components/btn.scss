@@ -1,0 +1,35 @@
+.btn{
+  font-family: 'Play', serif;
+  font-size: rem(18px);
+  padding: rem(19px) rem(45px);
+  text-transform: uppercase;
+  border-radius: rem(100px);
+  line-height: 1;
+  text-decoration: none;
+  border: none;
+   
+  &--theme--red{
+    background: #E01F3D;
+    color: #fff;
+
+    &:hover{
+      color: #E01F3D;
+      background: #fff;
+    }
+  }
+
+  &--theme--transparent{
+    font-size: rem(18px);
+    background: transparent;
+    color: #fff;
+    text-transform: none;
+
+    &:hover{
+      color: #E01F3D;
+    }
+  }
+}  
+
+.form__btns{
+  margin-top: rem(40px);
+}

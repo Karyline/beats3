@@ -1,0 +1,52 @@
+h2 {
+  color: transparent;
+  margin: 0 0 0 0;
+}
+
+.hero {
+  background-color: #F8FAF9;
+  height: 100vh;
+  min-height: rem(650px);
+  color: #292929;
+  position: relative;
+}
+.hero:before {
+  position: absolute;
+  bottom: rem(-30px);
+  left: 80%;
+  content: "";
+  background: url("../pictures/header/rectangle/rectangle.png");
+}
+
+.hero__title-section {
+  width: 46%;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: rem(24px) 0 rem(45px) 0;
+  background: url("../pictures/header/bg/beats.png") right center/50% auto no-repeat;
+}
+
+.hero__main-title {
+  font-size: rem(48px);
+  line-height: 1.1;
+  font-weight: bold;
+  margin-bottom: rem(30px);
+  text-transform: uppercase;
+  font-family: "Play", serif;
+}
+
+.hero__title-desc {
+  margin-top: rem(-80px);
+  font-size: rem(21px);
+  margin-bottom: rem(55px);
+  padding-right: 22%;
+}
+
+.hero__icons-section {
+  margin-bottom: rem(50px);
+}
